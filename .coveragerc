@@ -1,0 +1,6 @@
+[run]
+omit =
+    *__init__.py
+    bids2datapackage/main.py
+    bids2datapackage/tests/*
+    bids2datapackage/cli/cli.py

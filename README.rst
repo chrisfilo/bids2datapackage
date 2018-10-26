@@ -1,0 +1,22 @@
+bids2datapackage
+================
+
+Automatic creation of datapackage.json formatted according to https://frictionlessdata.io/specs/data-package/
+
+Quickstart
+----------
+
+Install `docker`_.
+
+Setup the full environment::
+
+  make
+
+Setup a local dev environment::
+
+  make venv
+  source venv/bin/activate
+
+Use `make help` to see all the available make targets.
+
+.. _`docker`: https://docs.docker.com/engine/understanding-docker/
